@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us - My Travel Adventures</title>
+    <style>
+        body {
+            background-color: #FFD1DC; /* Specify your desired color using hex, RGB, or color name */
+        }
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <h1>My Travel Adventures</h1>
+        <nav>
+            
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="signup.html">Signup</a>
+                <a href="login.html">Login</a>
+                <a href="contact.html">Contact</a>
+                <a href="feedback.html">Feedback</a>
+            
+        </nav>
+        <div id="header-options">
+            <button onclick="openVideoPage()">Insert Video</button>
+            <button onclick="openPhotosPage()">Insert Photos</button>
+        </div>
+    </header>
+    <main id="about-section">
+        <section>
+            <h2>Signup</h2>
+            <!-- Signup form -->
+            <form action="signup_process.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Signup</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
